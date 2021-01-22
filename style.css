@@ -1,0 +1,51 @@
+.bg-body{
+    background: #EC6F66;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+ padding: 15px 0px ;
+    text-align: center;
+}
+h2{
+text-align: center;
+}
+
+.bg-body-1{
+    background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:2480px){
+
+.list{
+    visibility: hidden;
+
+}
+}
+@media only screen and (max-width:984px){
+
+.list-sm{
+    visibility: visible;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.list-sm-md{
+    padding: 0px;
+   
+}
+}
